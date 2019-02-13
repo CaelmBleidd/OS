@@ -1,0 +1,10 @@
+#!/bin/bash
+line=""
+while true ; do 
+read actual 
+if [[ "$actual" == "q" ]] 
+then break
+else line="$line$actual"
+fi
+done
+echo $line

@@ -1,0 +1,5 @@
+#!/bin/bash
+if [[ "$1" == "$2" ]] 
+then echo "Lines are equals"
+else echo "First line != second line"
+fi

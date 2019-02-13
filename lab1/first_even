@@ -1,0 +1,11 @@
+#!/bin/bash
+cnt=0
+while true ; do
+read number
+if [[ "$number%2" -eq 1 ]] 
+then let cnt=cnt+1
+else break
+fi
+done
+let cnt=cnt+1
+echo $cnt

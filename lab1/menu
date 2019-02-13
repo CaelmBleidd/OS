@@ -1,0 +1,18 @@
+#!/bin/bash
+while true ; do
+read number
+case $number in 
+1 )
+vim my_file
+;;
+2 )
+nano my_file
+;;
+3 )
+java -version
+;;
+4 )
+break
+;;
+esac
+done
