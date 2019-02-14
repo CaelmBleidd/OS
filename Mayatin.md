@@ -61,11 +61,13 @@
 
 Для того, чтобы найти эти коэффициенты при критериях, используют цикл __PDCA__ (Plan--Do--Check--Act).
 
+Возможность развития:
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MD
-Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
-NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
-kyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTEwNDY0Njg0MTQsMzY3MzUxNDgzLC0zOT
+A5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYy
+MDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMj
+A4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
