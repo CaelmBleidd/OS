@@ -45,11 +45,11 @@
 Создаётся GNU is not unix. Появление GNU/Linux. 
 
 ## Вторая лекция
-/* куча нудных слов непонятно о чём (ни о чём) 
+/* куча нудных слов непонятно о чём (ни о чём)  */
 Задача оптимизации процессов, в широком смысле, не может быть решена, поскольку мы не можем оценить оптимальность потраченного времени из-за затраты ресурсов системы на мониторинг, куда было потрачено время.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMT
-A5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNd
-fQ==
+eyJoaXN0b3J5IjpbMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMz
+Y2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcs
+LTg2ODk0ODQ0M119
 -->
