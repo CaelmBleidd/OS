@@ -49,8 +49,13 @@
 Задача оптимизации процессов, в широком смысле, не может быть решена, поскольку мы не можем оценить оптимальность потраченного времени из-за затраты ресурсов системы на мониторинг, куда было потрачено время.
 /* куча нудных слов и история про аэропорт */
 
+Задачи ОС: 
+(5 пунктов, которые я пропустил)
+
+Функции ОС:
+* Функции 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5Mj
-QyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4Njcs
-MTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTE5MDIzNTUxMjYsMTU4ODg3MDYyNSwxMj
+czNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5
+LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
