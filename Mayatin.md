@@ -56,10 +56,10 @@
 (1 пункт, который я тоже пропустил)
 
 Суперкритерий
-У меня есть некоторое количество мощностей и критериев K, которым я хочу удовлетворять. Введём суперкритерий K с крышечкой, который будет некоторой свёрткой всех критериев с некоторыми ко\ф
+У меня есть некоторое количество мощностей и критериев K, которым я хочу удовлетворять. Введём суперкритерий K с крышечкой, который будет некоторой свёрткой всех критериев с некоторыми коэффициентами. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg3MjE1OTAsLTE4MDY2ODY2NDIsMT
-U4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4
-NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtOD
-Y4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNT
+g4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2
+NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Nj
+g5NDg0NDNdfQ==
 -->
