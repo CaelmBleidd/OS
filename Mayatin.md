@@ -59,11 +59,11 @@
 
 Для систем реального времени используют __условный критерий__: я пытаюсь найти максимум от некоторой свёрткой, при условии, что некоторый конкретный критерий находится в некоторых границах. 
 
-Для того, чтобы найти эти кф при 
+Для того, чтобы найти эти коэффициенты при критериях, используют цикл __PDCA__. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTY2NDczNywtMzkwOTM5ODAzLC0xOD
-A2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0MjYy
-MzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nz
-c5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbNzcyOTEyMjgwLC0zOTA5Mzk4MDMsLTE4MD
+Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
+NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
+kyNDIzNywtODY4OTQ4NDQzXX0=
 -->
