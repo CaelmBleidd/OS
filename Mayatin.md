@@ -45,9 +45,9 @@
 Создаётся GNU is not unix. Появление GNU/Linux. 
 
 ## Вторая лекция
-### Уровни операционной системы
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbMTUxODA0MjA5NSwyMTAzNjY4NjUzLDE2Mj
+EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
+XX0=
 -->
