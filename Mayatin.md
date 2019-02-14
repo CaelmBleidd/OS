@@ -55,11 +55,11 @@
 Функции ОС:
 (1 пункт, который я тоже пропустил)
 
-
-
-
+Суперкритерий
+У меня есть некоторое количество мощностей и критериев K, которым я хочу удовлетворять. Введём суперкритерий K с крышечкой, который будет некоторой свёрткой всех критериев с некоторыми ко\ф
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMj
-czNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5
-LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTEyMTg3MjE1OTAsLTE4MDY2ODY2NDIsMT
+U4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4
+NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtOD
+Y4OTQ4NDQzXX0=
 -->
