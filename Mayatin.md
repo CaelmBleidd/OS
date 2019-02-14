@@ -66,11 +66,13 @@
 ### Уровень управления процессами
 С точки зрения ОС процесс -- это структура данных. 
 
+На этом слова кончились, дальше обещано что-то адекватное
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MT
+Q4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUs
+MTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMD
+k1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+
 -->
