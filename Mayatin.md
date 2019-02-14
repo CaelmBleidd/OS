@@ -55,11 +55,15 @@
 Функции ОС:
 (1 пункт, который я тоже пропустил)
 
-Суперкритерий
-У меня есть некоторое количество мощностей и критериев K, которым я хочу удовлетворять. Введём суперкритерий K с крышечкой, который будет некоторой свёрткой всех критериев с некоторыми коэффициентами. 
+У меня есть некоторое количество мощностей и критериев K, которым я хочу удовлетворять. Введём __суперкритерий__ K с крышечкой, который будет некоторой свёрткой всех критериев с некоторыми коэффициентами. 
+
+Для систем реального времени используют __условный критерий__: я пытаюсь найти максимум от некоторой свёрткой, при условии, что некоторый конкретный критерий находится в некоторых границах. 
+
+Для того, чтобы найти эти кф при 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNT
-g4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2
-NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Nj
-g5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbLTMwMTY2NDczNywtMzkwOTM5ODAzLC0xOD
+A2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0MjYy
+MzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nz
+c5MjQyMzcsLTg2ODk0ODQ0M119
 -->
