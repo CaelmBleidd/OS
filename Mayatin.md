@@ -45,9 +45,9 @@
 Создаётся GNU is not unix. Появление GNU/Linux. 
 
 ## Вторая лекция
-
+Задача оптимизации, в широком смысле, не может быть 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODA0MjA5NSwyMTAzNjY4NjUzLDE2Mj
-EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
-XX0=
+eyJoaXN0b3J5IjpbLTEzNDU3NjYwNjksMjEwMzY2ODY1MywxNj
+IxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0
+M119
 -->
