@@ -61,13 +61,14 @@
 
 Для того, чтобы найти эти коэффициенты при критериях, используют цикл __PDCA__ (Plan--Do--Check--Act).
 
-Возможность развития:
+ОС проектируются на десятилетия, поэтому практически отсутствует возможность прогнозирования, в каких условиях она будет работать. 
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0Njg0MTQsMzY3MzUxNDgzLC0zOT
-A5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYy
-MDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMj
-A4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbMTExNzE5ODEwLDM2NzM1MTQ4MywtMzkwOT
+M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
+Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
+E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
 -->
