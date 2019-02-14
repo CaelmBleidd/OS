@@ -45,8 +45,8 @@
 Создаётся GNU is not unix. Появление GNU/Linux. 
 
 ## Вторая лекция
-
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Nj
-g5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTEyNjUyMzIsLTEyMDgxODg2NywxNz
+c3OTI0MjM3LC04Njg5NDg0NDNdfQ==
 -->
