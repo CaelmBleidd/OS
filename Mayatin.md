@@ -47,9 +47,10 @@
 ## Вторая лекция
 /* куча нудных слов непонятно о чём (ни о чём)  */
 Задача оптимизации процессов, в широком смысле, не может быть решена, поскольку мы не можем оценить оптимальность потраченного времени из-за затраты ресурсов системы на мониторинг, куда было потрачено время.
+/* куча нудных слов и история про аэропорт */
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMz
-Y2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcs
-LTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5Mj
+QyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4Njcs
+MTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
