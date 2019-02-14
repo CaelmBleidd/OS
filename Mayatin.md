@@ -45,9 +45,10 @@
 Создаётся GNU is not unix. Появление GNU/Linux. 
 
 ## Вторая лекция
-Задача оптимизации, в широком смысле, не может быть 
+/* куча нудных слов непонятно о чём (ни о чём) 
+Задача оптимизации, в широком смысле, не может быть решена, поскольку мы не можем оценить оптимальность потраченного времени из-за затраты ресурсов системы на мониторинг, куда было потрачено время. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU3NjYwNjksMjEwMzY2ODY1MywxNj
-IxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0
-M119
+eyJoaXN0b3J5IjpbMTI0OTQ3OTIsMjEwMzY2ODY1MywxNjIxMD
+k1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+
 -->
