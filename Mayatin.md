@@ -53,9 +53,11 @@
 (5 пунктов, которые я пропустил)
 
 Функции ОС:
-* Функции 
+(1 пункт, который я тоже пропустил)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIzNTUxMjYsMTU4ODg3MDYyNSwxMj
-czNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5
-LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTI1MDkxMTExOCwxNTg4ODcwNjI1LDEyNz
+M0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTks
+LTEyMDgxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
 -->
