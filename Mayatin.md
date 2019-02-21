@@ -139,12 +139,13 @@ __Системный вызов__ -- это обращение пользова�
 *  HAL
 * аппаратную поддержку
 
- В user mde
+ В user mode разместим сервера. 
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTA1NzgzOCwtNzY3NjA5NDk0LC0xMz
-c2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMy
-NiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MD
-Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
-NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
-kyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbLTUzNzQzMTU3LC03Njc2MDk0OTQsLTEzNz
+YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
+LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
+Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
+LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OT
+I0MjM3LC04Njg5NDg0NDNdfQ==
 -->
