@@ -87,10 +87,11 @@ N.B. Ядро linux на момент написания данного конс
 2. Services procedures 
 3. Utilities
 Системный вызов -- это обращение пользовательской программы к ядру ОС с требованием предоставить дополнительные ресурсы или выполнить привилегированную операцию.
+Как это устроено: у каждого приложения, которое запускается, выделяется некоторая область памяти, в которой находятся некоторые параметры. Дальше, если необходм
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM2MTU5OSwtODc0NjQwMTAwLC0yNj
-A5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4Mywt
-MzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3Mz
-Q2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwt
-MTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTk5MTk3NzIwLC04NzQ2NDAxMDAsLTI2MD
+kwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0z
+OTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczND
+YyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0x
+MjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
