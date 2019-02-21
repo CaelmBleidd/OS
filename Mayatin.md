@@ -73,9 +73,10 @@
 Принципы:
 1. Модульная организация
 2. Функциональная избыточность 
-3. Функциональная избирательность 
+3. Функциональная избирательность
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjY3ODI2MCwtMjYwOTAxOTYwLDUwND
+eyJoaXN0b3J5IjpbLTM3MzMxNjIyNCwtMjYwOTAxOTYwLDUwND
 E0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywt
 MTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyND
 I2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2Nywx
