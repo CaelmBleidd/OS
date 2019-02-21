@@ -112,11 +112,13 @@ __Системный вызов__ -- это обращение пользова�
 
 Следующий уровень: **Hardware Abstraction Layer (HAL)**
 Вы должны сделать абстрагирования всякого кода, связанного с принятием решений и тд, от платформы. Взаимодействие двух этих уровней позволяет работать системам на разных платформах. То, то раньше было утилитами, во многом переехало на HAL уровень. 
+
+ЗА 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtOD
-c0NjQwMTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgz
-LDM2NzM1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1OD
-g4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1
-MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2OD
-k0ODQ0M119
+eyJoaXN0b3J5IjpbLTE1MjkzNzUzLC03Njc2MDk0OTQsLTEzNz
+YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
+LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
+Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
+LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OT
+I0MjM3LC04Njg5NDg0NDNdfQ==
 -->
