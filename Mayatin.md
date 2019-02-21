@@ -146,11 +146,15 @@ __Системный вызов__ -- это обращение пользова�
 Проблема: мы часто не используем сервера, но они продолжают висеть в системе и жрать ресурсы. Что делать?
 Не использую сервер печати? В файл подкачки его. Не использую сервер сети? В файл подкачки. Разница в 60-70 раз по ресурсам. 
 Следующее преимущество подобного подхода: возможность создания распределённых систем. 
+
+Чем за это заплатили? 
+* производительностью 
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzODQ2OTY0LC03Njc2MDk0OTQsLTEzNz
-YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
-LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
-Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
-LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OT
-I0MjM3LC04Njg5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbMTU5NjM2OTM2MSwtNzY3NjA5NDk0LC0xMz
+c2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMy
+NiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MD
+Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
+NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
+kyNDIzNywtODY4OTQ4NDQzXX0=
 -->
