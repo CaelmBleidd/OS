@@ -160,13 +160,14 @@ __Системный вызов__ -- это обращение пользова�
 
 ##
 Все реальные ОС имеют **гибридные ядра**, поэтому большинство из них называют **гибридными**. 
-**windows**
+**windows** -- 
 **linux** -- монолитное ядро, но с оговорками (многопоточное ядро, отдельные программные компоненты, в том числе на HAL уровне, могут быть заменены без перезагрузки при помощи заглушек). 
+**Mac OS(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzA4MzU1LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTIxMDQzODcwMjQsMTU5NjM2OTM2MSwtNz
+Y3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkw
+MTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOT
+A5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYy
+MDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMj
+A4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
