@@ -95,11 +95,13 @@ __Системный вызов__ -- это обращение пользова�
 
 Какие минусы быстро возникли:
 * если я хочу что-то поменять в работе ОС, то, как минимум, это перезапуск ядра, как максимум -- перекомпиляция ядра
-* 
+
+Плюсы:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTg5OTcwMCwtODc0NjQwMTAwLC0yNj
-A5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4Mywt
-MzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3Mz
-Q2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwt
-MTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbOTEyMTQxNTc2LC04NzQ2NDAxMDAsLTI2MD
+kwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0z
+OTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczND
+YyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0x
+MjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
