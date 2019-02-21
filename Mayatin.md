@@ -101,10 +101,11 @@ __Системный вызов__ -- это обращение пользова�
 Плюсы:
 * никаких накладных расходов -> быстродействие 
 * максимальная надёжность
+/* стори про сервак факультета и FREE BSD
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDA4MDc1NSwtODc0NjQwMTAwLC0yNj
-A5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4Mywt
-MzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3Mz
-Q2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwt
-MTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTExNDU5OTM0NTYsLTg3NDY0MDEwMCwtMj
+YwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMs
+LTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNz
+M0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTks
+LTEyMDgxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
 -->
