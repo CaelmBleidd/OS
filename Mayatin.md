@@ -75,13 +75,18 @@
 2. Функциональная избыточность 
 3. Функциональная избирательность
 4. Выделение хотя бы двух пространств: __user space__ и __kernel space__
-**Привилегия** -- возможность доступа к физическим адресам памяти, а не приоритет в каких-либо операциях. Только ядро в привилегированном режиме имеет доступ к физическим устройствам и памяти. 
-Кроме того, что ядро должно быть привилегированно, оно ещё должно быть __резидентно__, т.е. полностью и всегда расположен в оперативной памяти. 
 
+**Привилегия** -- возможность доступа к физическим адресам памяти, а не приоритет в каких-либо операциях. Только ядро в привилегированном режиме имеет доступ к физическим устройствам и памяти. 
+Кроме того, что ядро должно быть привилегированно, оно ещё должно быть __резидентно__, т.е. полностью и всегда расположено в оперативной памяти. 
+
+Дальше возник спор: а что тогда должно быть в ядре? 
+N.B. Ядро linux на момент написания данного конспекта включает приблизительно 8млн строк кода. 
+
+Самый первый 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwND
-E0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywt
-MTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyND
-I2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2Nywx
-Nzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbMTU3NzU1MTgzNSwtODc0NjQwMTAwLC0yNj
+A5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4Mywt
+MzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3Mz
+Q2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwt
+MTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
 -->
