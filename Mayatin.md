@@ -160,9 +160,10 @@ __Системный вызов__ -- это обращение пользова�
 
 ##
 Все реальные ОС имеют **гибридные ядра**, поэтому большинство из них называют **гибридными**. 
-linux -- 
+windows
+linux -- монолитное ядро
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTE0NjQxMCwxNTk2MzY5MzYxLC03Nj
+eyJoaXN0b3J5IjpbLTUxMzc1NzA2NCwxNTk2MzY5MzYxLC03Nj
 c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
 OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
 kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
