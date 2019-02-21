@@ -122,15 +122,18 @@ __Системный вызов__ -- это обращение пользова�
 Где мы победили:
 * можем переписывать отдельные слои
 
-Где мы не победили:
+Где мы **не** победили:
 * по прежнему съедаем большое количество памяти
 * без перезапуска всё ещё сложно заменить что-то в ядре
-* 
+
+### Новые концепции
+Выполнение части задач на других аппаратных узлах. В чём проблемы? Менеджер ресурсов один. Он привязан к железу и не может ничего делать с другими узлами. 
+Как выйти из этой ситуации? Нужно уходить наружу, одна
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIwMDk5OTAsLTc2NzYwOTQ5NCwtMT
-M3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5NjAsNTA0MTQz
-MjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOTM5ODAzLC0xOD
-A2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0MjYy
-MzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nz
-c5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbOTEyMzM2Mzg0LC03Njc2MDk0OTQsLTEzNz
+YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
+LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
+Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
+LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OT
+I0MjM3LC04Njg5NDg0NDNdfQ==
 -->
