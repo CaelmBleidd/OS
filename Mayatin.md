@@ -109,12 +109,13 @@ __Системный вызов__ -- это обращение пользова�
 Уровень аппаратной поддержки ядра:
 * работа с прерываниями
 * работа с контекстом 
-* 
+
+Следующий уровень: HAL - **Hardware Abstraction Layer**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjEyNDY1MywtMTM3NjA2NDY5MSwtOD
-c0NjQwMTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgz
-LDM2NzM1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1OD
-g4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1
-MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2OD
-k0ODQ0M119
+eyJoaXN0b3J5IjpbLTE1MjQxODAxNTUsLTEzNzYwNjQ2OTEsLT
+g3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4
+MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNT
+g4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2
+NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Nj
+g5NDg0NDNdfQ==
 -->
