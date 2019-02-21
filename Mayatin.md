@@ -75,11 +75,13 @@
 2. Функциональная избыточность 
 3. Функциональная избирательность
 4. Выделение хотя бы двух пространств: __user space__ и __kernel space__
-5. 
+**Привилегия** -- возможность доступа к физическим адресам памяти, а не приоритет в каких-либо операциях. Только ядро в привилегированном режиме имеет доступ к физическим устройствам и памяти. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4NDI3MDYzLC0yNjA5MDE5NjAsNTA0MT
-QzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOTM5ODAzLC0x
-ODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAzNyw0OTI0Mj
-YyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3LDE3
-Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbMTI3MjAwNzk4MiwtMjYwOTAxOTYwLDUwND
+E0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywt
+MTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyND
+I2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2Nywx
+Nzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
 -->
