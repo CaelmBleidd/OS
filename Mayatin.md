@@ -68,11 +68,16 @@
 
 На этом слова кончились, дальше обещано что-то адекватное
 
-
+## Третья пара
+### Архитектура операционной системой
+Принципы:
+1. Модульная организация
+2. Функциональная избыточность 
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MT
-Q4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUs
-MTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMD
-k1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
-
+eyJoaXN0b3J5IjpbLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMD
+MzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIs
+MTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNj
+Y4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywt
+ODY4OTQ4NDQzXX0=
 -->
