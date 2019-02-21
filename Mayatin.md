@@ -82,11 +82,14 @@
 Дальше возник спор: а что тогда должно быть в ядре? 
 N.B. Ядро linux на момент написания данного конспекта включает приблизительно 8млн строк кода. 
 
-Самый первый 
+Самый первый вид, о котором мы говорим -- __монолитное ядро__. Ядро особо не структурировано в плане доступа. Любая процедура может вызвать и передать данные любой другой процедуре. Тем не менее, даже в монолитной структуре выделяют три слоя, которые абстрагированы друг от друга:
+1. Main program 
+2. Services procedures 
+3. Utilities
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzU1MTgzNSwtODc0NjQwMTAwLC0yNj
-A5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4Mywt
-MzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3Mz
-Q2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwt
-MTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbNjY2OTgyNDE3LC04NzQ2NDAxMDAsLTI2MD
+kwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0z
+OTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczND
+YyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0x
+MjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
