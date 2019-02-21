@@ -141,8 +141,10 @@ __Системный вызов__ -- это обращение пользова�
 
  В user mode разместим сервера. 
  
+ [Схемка многоядерной архитектуры](https://lh3.googleusercontent.com/bjD2EEE3S5gjq--XqWFnS_MrAJ9cD_hy4UiP43rBgGrXAzw6jmEr7XQ-aryatQ6GnZN6F2n3p1km "Схема микроядерной архитектуры &#40;справа затесалась многослойная&#41;")
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzQzMTU3LC03Njc2MDk0OTQsLTEzNz
+eyJoaXN0b3J5IjpbNzUwMTIyNDgzLC03Njc2MDk0OTQsLTEzNz
 YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
 LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
 Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
