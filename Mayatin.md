@@ -149,12 +149,17 @@ __Системный вызов__ -- это обращение пользова�
 
 Чем за это заплатили? 
 * производительностью 
-* 
+* чем-то ещё
+
+### Наноядро
+По факту, в ядре остаётся только обработка прерываний. Всё остальное вынесено за пределы ядра, а ядро просто обрабатывает прерывание. 
+Где и зачем это применяется:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjM2OTM2MSwtNzY3NjA5NDk0LC0xMz
-c2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMy
-NiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MD
-Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
-NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
-kyNDIzNywtODY4OTQ4NDQzXX0=
+eyJoaXN0b3J5IjpbMTE3OTE3NDU1LDE1OTYzNjkzNjEsLTc2Nz
+YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
+NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
+M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
+Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
+E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
 -->
