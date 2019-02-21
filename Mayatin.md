@@ -128,12 +128,15 @@ __Системный вызов__ -- это обращение пользова�
 
 ### Новые концепции
 Выполнение части задач на других аппаратных узлах. В чём проблемы? Менеджер ресурсов один. Он привязан к железу и не может ничего делать с другими узлами. 
-Как выйти из этой ситуации? Нужно уходить наружу, одна
+Как выйти из этой ситуации? Нужно уходить из ядра, однако это сломает безопасность. Кроме того, это вызовет накладные расходы. 
+Таким образом появилась **микроядерная архитектура**.
+
+У мен 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMzM2Mzg0LC03Njc2MDk0OTQsLTEzNz
-YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
-LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
-Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
-LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OT
-I0MjM3LC04Njg5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbMTA5NDk3MDE0NiwtNzY3NjA5NDk0LC0xMz
+c2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMy
+NiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MD
+Y2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIz
+NCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3Nz
+kyNDIzNywtODY4OTQ4NDQzXX0=
 -->
