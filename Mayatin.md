@@ -199,8 +199,11 @@ B --> F[FiberM]
 Такова общая модель. 
 
 ### 
+Выделим, какие функции выполняет ОС для управления процессами. 
+1. Создание процесса. 
+Процесс -- структура данных ядра. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NjM2MzUsMTU5NjM2OTM2MSwtNzY3Nj
+eyJoaXN0b3J5IjpbLTIyNzE3NDUsMTU5NjM2OTM2MSwtNzY3Nj
 A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
 MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
 k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
