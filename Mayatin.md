@@ -203,12 +203,12 @@ B --> F[FiberM]
 1. Создание процесса. 
 Процесс -- структура данных ядра, т.е. создать процесс значит создать структуру данных. Есть принципиальное различие между созданием процессов в линуксе и винде. 
 В линуксе они рождаются деревом планирования. Первый процесс `init` стартует ядро, 
-Ядро запускает первый процесс `init`, все остальные процессы порождаются процессом 
+Ядро запускает первый процесс `init`, все остальные процессы порождаются процессом `init`. Любой процесс хранит свой `pid` и `parent pid`. Зачем это нужно? Во-первых, в такой модели удобно обеспечить анализ всех дочерних процессов. Любой процесс, завершаясь, посылает родителю информацию о 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NTk0ODE4LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTEwNjg1NTQ2NjcsMTU5NjM2OTM2MSwtNz
+Y3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkw
+MTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOT
+A5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYy
+MDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMj
+A4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
