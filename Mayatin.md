@@ -188,14 +188,14 @@ __Системный вызов__ -- это обращение пользова�
 graph LR
 A[process] --> B[Thread1] 
 A[process] --> C[Thread2]
-A[process] --> D[...]
+A[process] --> D[ThreadN]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3MjA5MjE3LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTMyMDcwMzQxMywxNTk2MzY5MzYxLC03Nj
+c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
+OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
+kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
+MzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMD
+gxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
 -->
