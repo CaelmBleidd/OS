@@ -217,8 +217,14 @@ B --> F[FiberM]
 
 Бывает первичное обеспечение процесса и последующее. 
 Здесь тоже есть принципиальная разница: винда гарантирует каждому процессу чистое и независимое адресное пространство. Линукс клонирует родительское. Раньше это клонирование приводило к достаточно медленному созданию процесса. 
+
+3. Изоляция процесса
+
+Она происходит на нескольких уровнях. 
+Во-первых, на уровне аппаратной поддержки ядра. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTM4MDc2Miw5MDQ1Mzg2MDgsMTU5Nj
+eyJoaXN0b3J5IjpbLTkyNDYwODAwOSw5MDQ1Mzg2MDgsMTU5Nj
 M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
 MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
 UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
