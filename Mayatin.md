@@ -225,14 +225,19 @@ B --> F[FiberM]
 В линуксе создана достаточно простая модель: существует каталог ```/var/lock```. Там находится символическая запись файла. Процесс создаётся, смотрит, есть ли файл в этом каталоге. Если есть -- обращение не позволено. 
 
 4. Диспетчеризация потока
+
 Смена потока на какой-нибудь другой. Она происходит в три этапа: сохранить регистровый контекст уходящего потока, загрузить новый регистровый контекст, сменить статус потока.
-Процедура смены статуса должна быть атомарной. Здесь происходит коллизия с прерыванием. Поэтому большинство ОС используео 
+Процедура смены статуса должна быть атомарной. Здесь происходит коллизия с прерыванием. Поэтому большинство ОС использует переход в однопрограммный режим. Поэтому большинство процессоров поддерживают очень опасный режим игнорирования прерываний. Чем это плохо? Тем, что если я плохо написал код между этими двумя процессами, то я уже ничего не сделаю, потому что процессор игнорирует прерывание. 
+
+6. Организация межпроцессного взаимодействия
+
+Мы хотим, чтобы процессы были изолированны, но п
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTg5ODQzNSw5MDQ1Mzg2MDgsMTU5Nj
-M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
-MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
-UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
-NSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2Mj
-EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTg0ODEzODgsOTA0NTM4NjA4LDE1OT
+YzNjkzNjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQw
+MTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2Nz
+M1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2
+MjUsMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNj
+IxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0
+M119
 -->
