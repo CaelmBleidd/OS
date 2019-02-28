@@ -236,9 +236,9 @@ B --> F[FiberM]
 
 7. Синхронизация процессов и потоков
 
-У меня есть два процесса, которые оба хотят использовать ресурс, который нельзя разделить. 
+У меня есть два процесса, которые оба хотят использовать ресурс, который нельзя разделить. Как фиксить? ~вилкой~ Потребовалось десять лет, чтобы разработать теорию этого переключения. Дейкстра был одним из тех, кто смог решить эту проблему. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MjE0NjUyLDkwNDUzODYwOCwxNTk2Mz
+eyJoaXN0b3J5IjpbNzk1MzkzMDY2LDkwNDUzODYwOCwxNTk2Mz
 Y5MzYxLC03Njc2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEw
 MCwtMjYwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNT
 E0ODMsLTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1
