@@ -205,11 +205,14 @@ B --> F[FiberM]
 В линуксе они рождаются деревом планирования. Первый процесс `init` стартует ядро, 
 Ядро запускает первый процесс `init`, все остальные процессы порождаются процессом `init`. Любой процесс хранит свой `pid` и `parent pid`. Зачем это нужно? Во-первых, в такой модели удобно обеспечить анализ всех дочерних процессов. Любой процесс, завершаясь, посылает родителю информацию о том, что он завершается, дальше этот сигнал можно как-то обработать. 
 Естественный минус -- что произойдёт, если у меня работает дочерний процесс и у меня крашнулся родительский? Теперь дочерний процесс стал осиротевшим (да, это официальный термин). Были попытки починить это усыновлением (и это, как ни странно, тоже). Это требует большого количество ресурсов для обработки целых двух уровней процессов, а не одного. Поэтому сейчас работает другая модель: если у нас теряется связь с родителем, то всех таких потомком усыновляет `init`. Почему это так? Просто потому что `init` имеет обработчик всех сигналов, которых конечное число (кажется, 64, только два из них пользовательские). 
+/* какие-то слова */
+Зомби-процессом называется процесс, который завершился, родитель которого тоже завершился, но до нег
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-Nyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwOD
-E4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0M119
+eyJoaXN0b3J5IjpbLTU3Nzg5NjI1NSw5MDQ1Mzg2MDgsMTU5Nj
+M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
+MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
+UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
+NSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2Mj
+EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
+XX0=
 -->
