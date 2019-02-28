@@ -241,13 +241,13 @@ B --> F[FiberM]
 
 8. Завершение и уничтожение потоков и процессов
 
-Во-первых, мы понимаем, что в программировании ничего не идёт глад
+Во-первых, мы понимаем, что в программировании ничего не идёт гладко. Во-вторых, все исключения никогда не обработаешь. ОС это такая конечная инстанция. Если всё пошло не по плану, что должна сделать ОС? Она должн
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM4MjI1Niw5MDQ1Mzg2MDgsMTU5Nj
-M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
-MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
-UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
-NSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2Mj
-EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
-XX0=
+eyJoaXN0b3J5IjpbLTIwNTc1MTQ3OTUsOTA0NTM4NjA4LDE1OT
+YzNjkzNjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQw
+MTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2Nz
+M1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2
+MjUsMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNj
+IxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0
+M119
 -->
