@@ -186,7 +186,7 @@ __Системный вызов__ -- это обращение пользова�
 
 ``` mermaid
 graph LR
-Z[job( --> A
+Z[job] --> A
 A[Process] --> B[Thread1] 
 A[process] --> C[Thread2]
 A[process] --> D[ThreadN]
@@ -194,12 +194,13 @@ B --> E[Fiber1]
 B --> F[FiberM]
 ```
 Система имеет монополию управления потоков. В ответ на запрос пользователей создаются отдельные волокна (fiber), которые позволяют управлять планировкой времени на уровне волокон. Линукс отказался от этой идеи с самого начала, MS же поддерживает. 
-Дальше началась развиваться концепция, которая была хорошо забытым старым, потому что даже трёх уровней стало не хватать. 
+Дальше началась развиваться концепция, которая была хорошо забытым старым, потому что даже трёх уровней стало не хватать. Появился **job** (group). 
+Например, есть chrome. У него много тяжелых вкладок, на которых много тяжёлого кода. Хотелось бы, чтобы вкладки выполнялис
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTkzOTY1MSwxNTk2MzY5MzYxLC03Nj
-c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
-OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
-kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
-MzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMD
-gxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODM5NDkxMjcsMTU5NjM2OTM2MSwtNz
+Y3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkw
+MTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOT
+A5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYy
+MDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMj
+A4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
