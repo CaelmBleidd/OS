@@ -231,13 +231,14 @@ B --> F[FiberM]
 
 6. Организация межпроцессного взаимодействия
 
-Мы хотим, чтобы процессы были изолированны, но п
+Мы хотим, чтобы процессы были изолированны, но при этом могли обмениваться данными. Для этого нужен посредник. ОС гарантирует только одно: другой процесс получит сигнал, который перебросит ОС, а дальше он уже решает, обрабатывать его или нет. 
+На примере линукса, существуют именованные каналы. Когда вы запускаете command1 | command2. Между ними существует буффер, чтобы обеспечить взаимодействие. На самом деле, этот бф
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg0ODEzODgsOTA0NTM4NjA4LDE1OT
-YzNjkzNjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQw
-MTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2Nz
-M1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2
-MjUsMTI3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNj
-IxMDk1OSwtMTIwODE4ODY3LDE3Nzc5MjQyMzcsLTg2ODk0ODQ0
-M119
+eyJoaXN0b3J5IjpbMTEzNTU3MTg0Niw5MDQ1Mzg2MDgsMTU5Nj
+M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
+MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
+UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
+NSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2Mj
+EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
+XX0=
 -->
