@@ -221,10 +221,10 @@ B --> F[FiberM]
 3. Изоляция процесса
 
 Она происходит на нескольких уровнях. 
-Во-первых, на уровне аппаратной поддержки ядра. 
-
+Во-первых, на уровне аппаратной поддержки ядра. Там реализована защита памяти: при каждом обращение к памяти происходит оценка, в чьё адресное пространство происходит обращение и срабатывает прерывание, если лезете не в свою память. 
+В линуксе создана достаточно простая модель: существует каталог ```/vav/lock```. Там находится символическая запись файла. Процесс 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDYwODAwOSw5MDQ1Mzg2MDgsMTU5Nj
+eyJoaXN0b3J5IjpbLTg2NzcwODUxMCw5MDQ1Mzg2MDgsMTU5Nj
 M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
 MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
 UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
