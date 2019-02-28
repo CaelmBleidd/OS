@@ -189,11 +189,13 @@ graph LR
 A[process] --> B[Thread1] 
 A[process] --> C[Thread2]
 A[process] --> D[ThreadN]
-b
+B --> E[Fiber1]
+B --> F[FiberM]
 ```
-Система имеет монополию управления потоков. В ответ на запрос пользователей 
+Система имеет монополию управления потоков. В ответ на запрос пользователей создаются отдельные волокна (fiber), которые позволяют управлять планировкой времени на уровне волокон. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTQwODA0NCwxNTk2MzY5MzYxLC03Nj
+eyJoaXN0b3J5IjpbMjA0NzU3MzMzOCwxNTk2MzY5MzYxLC03Nj
 c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
 OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
 kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
