@@ -236,13 +236,14 @@ B --> F[FiberM]
 
 7. Синхронизация процессов и потоков
 
-У меня есть два процесса, которые оба хотят использовать ресурс, который нельзя разделить. Как фиксить? ~вилкой~ Потребовалось десять лет, чтобы разработать теорию этого переключения. Дейкстра был одним из тех, кто смог решить эту проблему. 
+У меня есть два процесса, которые оба хотят использовать ресурс, который нельзя разделить. Как фиксить? ~вилкой~ Потребовалось десять лет, чтобы разработать теорию этого переключения. Дейкстра был одним из тех, кто смог решить эту проблему, но на тот момент его идея семафоров была нереализуема. 
+Дальше, даже если я даже научился делать так, чтобы один неразделяемый ресурс давался одному процессу, проблемы не исчезли. Например, есть два процесса и два ресурса. Первый процесс заблочил первый ресур
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MzkzMDY2LDkwNDUzODYwOCwxNTk2Mz
-Y5MzYxLC03Njc2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEw
-MCwtMjYwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNT
-E0ODMsLTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1
-LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMT
-A5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNd
-fQ==
+eyJoaXN0b3J5IjpbMTk0OTExMjEyOCw5MDQ1Mzg2MDgsMTU5Nj
+M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
+MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
+UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
+NSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2Mj
+EwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQz
+XX0=
 -->
