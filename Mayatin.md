@@ -196,11 +196,14 @@ B --> F[FiberM]
 Система имеет монополию управления потоков. В ответ на запрос пользователей создаются отдельные волокна (fiber), которые позволяют управлять планировкой времени на уровне волокон. Линукс отказался от этой идеи с самого начала, MS же поддерживает. 
 Дальше началась развиваться концепция, которая была хорошо забытым старым, потому что даже трёх уровней стало не хватать. Появился **job** (group). 
 Например, есть chrome. У него много тяжелых вкладок, на которых много тяжёлого кода. Хотелось бы, чтобы вкладки выполнялись в разных процессах, чтобы краш одной вкладки не приводил к крашу браузера. Так же, если бы браузер использовал только один процесс, можно было бы спереть данные из одной вкладки через другую. Если у меня открыто 100 вкладок хрома и одна вкладка ворда, ворд получит 1/101 процессорного времени. Несправедливо. Так появился механизм **квантирования**. Грубо говоря, "Вот тебе определённое количество времени, больше не дам, сколько бы процессов ни было". 
+Такова общая модель. 
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzY4NDgxNywxNTk2MzY5MzYxLC03Nj
-c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
-OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
-kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
-MzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTksLTEyMD
-gxODg2NywxNzc3OTI0MjM3LC04Njg5NDg0NDNdfQ==
+eyJoaXN0b3J5IjpbNzQ3NjM2MzUsMTU5NjM2OTM2MSwtNzY3Nj
+A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
+MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
+k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
+LDQ5MjQyNjIzNCwyMTAzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MT
+g4NjcsMTc3NzkyNDIzNywtODY4OTQ4NDQzXX0=
 -->
