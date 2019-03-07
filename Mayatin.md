@@ -318,18 +318,22 @@ G --> D
 2. Масштабируемость 
 3. Минимальные расходы
 
-Параметры планирования:
-| | | | |Параметры системы| Параметры процессов |
+### Параметры планирования
+**Статические параметры системы** -- что-то долговременное, что почти не будет меняться. 
+**Динамические параметры системы** -- в основном про наличие ресурсов. 
 
-|--|--|
-|  |  |
+**Статические параметры процесса** -- некоторые характеристики процесса, которые не будут __почти__ меняться, например, какой пользователь породил его, приоритеты, какие библиотеки к нему подключены. 
+**Динамические параметры процесса**: 
+1. `CPU-birst` -- ожидаемое время непрерывной работы
+2. `I/O-birst` -- если этот процесс уйдёт в IO, он пробудет там столько-то времени
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc1NTg5ODUsLTM4MzY1MjYyNiw5MD
-Q1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0
-NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMz
-UwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2
-NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3LDQ5MjQyNjIzNCwyMT
-AzNjY4NjUzLDE2MjEwOTU5LC0xMjA4MTg4NjcsMTc3NzkyNDIz
-N119
+eyJoaXN0b3J5IjpbMTIzNTA0ODk0NiwtMzgzNjUyNjI2LDkwND
+UzODYwOCwxNTk2MzY5MzYxLC03Njc2MDk0OTQsLTEzNzYwNjQ2
+OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2LC0zNT
+AwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNjY4NjY0
+MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMD
+M2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3
+XX0=
 -->
