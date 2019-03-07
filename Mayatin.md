@@ -304,10 +304,28 @@ G --> D
 
 [Фоточка-картиночка](https://lh3.googleusercontent.com/BTyVOWXgzLggg-sZNxmbV6udAjGYlnTfgfzIilXNV-2PmOhJwzJDHUXGmgMTfusbRjfM7WJQU6wa "Схема с доски")
 
+Критерии планирования:
+1. Критерий справедливости (морально обоснованный, но не работающий ~как коммунизм~)
+2. Эффективность (хорошая утилизация ресурсов)
+3. Сокращение времени ожидания
+4. Сокращение полного времени выполнения
+5. Сокращение времени отклика
 
+Почти все эти критерии находятся в противоречии друг с другом. 
+
+Ограничения:
+1. Предсказуемость
+2. Масштабируемость 
+3. Минимальные расходы
+
+Параметры планирования:
+| | | | |Параметры системы| Параметры процессов |
+
+|--|--|
+|  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc1OTc3MDAsLTM4MzY1MjYyNiw5MD
+eyJoaXN0b3J5IjpbLTE2OTc1NTg5ODUsLTM4MzY1MjYyNiw5MD
 Q1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0
 NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMz
 UwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2
