@@ -327,13 +327,15 @@ G --> D
 1. `CPU-birst` -- ожидаемое время непрерывной работы
 2. `I/O-birst` -- если этот процесс уйдёт в IO, он пробудет там столько-то времени
 
+## Шестая лекция
+### Реализации моделей планирования
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTA0ODk0NiwtMzgzNjUyNjI2LDkwND
-UzODYwOCwxNTk2MzY5MzYxLC03Njc2MDk0OTQsLTEzNzYwNjQ2
-OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2LC0zNT
-AwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNjY4NjY0
-MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0LDIxMD
-M2Njg2NTMsMTYyMTA5NTksLTEyMDgxODg2NywxNzc3OTI0MjM3
+eyJoaXN0b3J5IjpbMTYwNTczNTU3NSwxMjM1MDQ4OTQ2LC0zOD
+M2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2NzYwOTQ5
+NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5NjAsNT
+A0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOTM5ODAz
+LC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAzNyw0OT
+I0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1OSwtMTIwODE4ODY3
 XX0=
 -->
