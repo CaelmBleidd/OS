@@ -442,15 +442,61 @@ Pi() {
 Как это выглядит? 
 ```
 shared int ready[2] = {0, 0}
+shared int turn = 0;
+Pi() {
+	...
+	ready[i] = 1;
+	rutn = 1 - i;
+	while (ready[1 - i] && turn == 1 - i) {
+		critical section
+	}
+	ready[i] = 0;
+	...
+}
+```
+Когда дошло до программирования, выяснилось, что процессов могут быть тысячи. Передавать по кругу становится сложно, теперь тысячи стоят у двери и препираются. Когда подойдёт новый процесс, ругань пойдёт по новой. 
+Единственная мысль, которая появилась у всех,  "было бы классно, если бы у меня появилась аппаратная конструкция, которая позволила бы выполнять в самом первом алгоритме атомарно переход после `while()`. Очень быстро появилась соответствующая конструкция. 
+```
+shared int lock = 0;
+while (Test_and_Set (&look)) {
+	critical section
+}
+lock = 0;
+...
+}
+```
+Проблема в том, что опрос переменной замка через эту инструкцию возможен только в режиме ядра. Это вызывает накладные расходы, но лучше ничего не сделать. 
+Всё это позволило реализовать идею из шестидесятых, которая не могла быть решена из-за отсутствия аппаратной поддержки. Идею придумал Дейкстра, которую назвали "Семафор". 
+Сегодня она реализована во всех ОС. 
+Семафор -- это некоторая неотрицательная целочисленная переменная. Над ней разрешены две операции: 
+1. P(s) -- проверять. 
+```
+while (s == 0);
+s = s - 1;
+``` 
+2. V(s)
+```
+s = s + 1;
+```
+`while` должен быть атомарен. 
 
+Проблема `Producer -- consumer`. 
+```
+Semaphor mutex = 1;
+Semaphor empty = N;
+Semaphor full = 0;
+
+Producer() {
+		
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTEyNzQyLC0yMDcxNjAyNTksMTIzNT
-A0ODk0NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYx
-LC03Njc2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMj
-YwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMs
-LTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNz
-M0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTld
-fQ==
+eyJoaXN0b3J5IjpbLTE3NTg5MTQ4NDQsLTIwNzE2MDI1OSwxMj
+M1MDQ4OTQ2LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkz
+NjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC
+0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4
+MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMT
+I3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1
+OV19
 -->
