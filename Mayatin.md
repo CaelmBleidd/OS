@@ -487,16 +487,50 @@ Semaphor empty = N;
 Semaphor full = 0;
 
 Producer() {
-		
+	while (1) {
+		produce_data;
+		P(empty);
+		P(mutex);
+		put_data;
+		v(mutex);
+		v(full);
+	}	
+}
+
+Consumer() {
+	while (1) {
+		p(full);
+		p(mutex);
+		get_data;
+		v(mutex);
+		v(empty);
+		consume_data;
+	}
 }
 ```
 
+Вернёмся к голоданию и тупикам.
+Проблему голодания можно решить с помощью управления приоритетами. С тупиками всё сложнее, после создания семафоров Дейкстра столкнулся именно с ними. Он придумал парадокс про [ "обедающих философов"](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE%D0%B1_%D0%BE%D0%B1%D0%B5%D0%B4%D0%B0%D1%8E%D1%89%D0%B8%D1%85_%D1%84%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B0%D1%85). Настоятельно рекомендую прочитать перед продолжением ботания. 
+Как же этот "официант" должен узнавать, что существует тупиковая ситуация? 
+Позже три математика из Беркли сформулировали формальные условия формирования тупика. Если все четыре условия выполнены, тупик будет. Если нет -- гарантированно не будет.
+* Условие взаимоисключения
+* Условие ожидания ресурсов
+* Условие неперераспределяемости
+* Круговое ожидание
+
+Дальше пошли думать, что с этим делать?
+1. Игнорировать
+2. Предотвращать
+3. Обнаруживать
+4. Осуществлять восстановительные работы
+
+В результате, большинство ОС решило пойти по самому простому пути -- игнорировать. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg5MTQ4NDQsLTIwNzE2MDI1OSwxMj
-M1MDQ4OTQ2LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkz
-NjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC
-0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4
-MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMT
-I3MzQ2MjAzNyw0OTI0MjYyMzQsMjEwMzY2ODY1MywxNjIxMDk1
-OV19
+eyJoaXN0b3J5IjpbLTczOTk0MDQ3LC0yMDcxNjAyNTksMTIzNT
+A0ODk0NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYx
+LC03Njc2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMj
+YwOTAxOTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMs
+LTM5MDkzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNz
+M0NjIwMzcsNDkyNDI2MjM0LDIxMDM2Njg2NTMsMTYyMTA5NTld
+fQ==
 -->
