@@ -1,0 +1,258 @@
+	Warning:  warning, (EE) error, (NI) not implemented, (??) unknown.
+[    51.491] Warning:  The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    52.596] Warning:  Falling back to old probe method for fbdev
+[    52.700] Warning:  Falling back to old probe method for vesa
+[  8800.432] Warning:  evdev: A4Tech USB Mouse: ignoring absolute axes.
+[  8958.206] Warning:  Option "xkb_variant" requires a string value
+[  8958.215] Warning:  Option "xkb_variant" requires a string value
+	(++) from command line, (!!) notice, Information:  informational,
+[    51.548] Information:  The server relies on udev to provide the list of input devices.
+[    51.548] Information:  Loader magic: 0x56497d8fbe00
+[    51.548] Information:  Module ABI versions:
+[    51.548] Information:  systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    51.549] Information:  xfree86: Adding drm device (/dev/dri/card0)
+[    51.563] Information:  LoadModule: "glx"
+[    51.701] Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    52.239] Information:  Module glx: vendor="X.Org Foundation"
+[    52.240] Information:  LoadModule: "modesetting"
+[    52.240] Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    52.479] Information:  Module modesetting: vendor="X.Org Foundation"
+[    52.479] Information:  LoadModule: "fbdev"
+[    52.479] Information:  Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    52.536] Information:  Module fbdev: vendor="X.Org Foundation"
+[    52.536] Information:  LoadModule: "vesa"
+[    52.536] Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    52.575] Information:  Module vesa: vendor="X.Org Foundation"
+[    52.575] Information:  modesetting: Driver for Modesetting Kernel Drivers: kms
+[    52.575] Information:  FBDEV: driver for framebuffer: fbdev
+[    52.575] Information:  VESA: driver for VESA chipsets: vesa
+[    52.596] Information:  modeset(0): using drv /dev/dri/card0
+[    52.596] Information:  Loading sub module "fbdevhw"
+[    52.596] Information:  LoadModule: "fbdevhw"
+[    52.596] Information:  Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    52.700] Information:  Module fbdevhw: vendor="X.Org Foundation"
+[    52.701] Information:  modeset(0): Creating default Display subsection in Screen section
+[    52.701] Information:  Loading sub module "glamoregl"
+[    52.701] Information:  LoadModule: "glamoregl"
+[    52.701] Information:  Loading /usr/lib/xorg/modules/libglamoregl.so
+[    53.016] Information:  Module glamoregl: vendor="X.Org Foundation"
+[    53.016] Information:  glamor: OpenGL accelerated X.org driver based.
+[    57.252] Information:  glamor: EGL version 1.4 (DRI2):
+[    59.250] Information:  modeset(0): glamor initialized
+[    59.251] Information:  modeset(0): Output eDP-1 has no monitor section
+[    59.256] Information:  modeset(0): Output VGA-1 has no monitor section
+[    59.265] Information:  modeset(0): Output HDMI-1 has no monitor section
+[    59.265] Information:  modeset(0): Output DP-1 has no monitor section
+[    59.266] Information:  modeset(0): EDID for output eDP-1
+[    59.266] Information:  modeset(0): Manufacturer: AUO  Model: 47ec  Serial#: 0
+[    59.266] Information:  modeset(0): Year: 2013  Week: 0
+[    59.266] Information:  modeset(0): EDID Version: 1.4
+[    59.266] Information:  modeset(0): Digital Display Input
+[    59.266] Information:  modeset(0): 6 bits per channel
+[    59.266] Information:  modeset(0): Digital interface is DisplayPort
+[    59.266] Information:  modeset(0): Max Image Size [cm]: horiz.: 34  vert.: 19
+[    59.266] Information:  modeset(0): Gamma: 2.20
+[    59.266] Information:  modeset(0): No DPMS capabilities specified
+[    59.266] Information:  modeset(0): Supported color encodings: RGB 4:4:4 
+[    59.266] Information:  modeset(0): First detailed timing is preferred mode
+[    59.266] Information:  modeset(0): Preferred mode is native pixel format and refresh rate
+[    59.266] Information:  modeset(0): redX: 0.590 redY: 0.340   greenX: 0.330 greenY: 0.550
+[    59.266] Information:  modeset(0): blueX: 0.150 blueY: 0.140   whiteX: 0.313 whiteY: 0.329
+[    59.266] Information:  modeset(0): Manufacturer's mask: 0
+[    59.266] Information:  modeset(0): Supported detailed timing:
+[    59.266] Information:  modeset(0): clock: 76.3 MHz   Image Size:  344 x 193 mm
+[    59.266] Information:  modeset(0): h_active: 1366  h_sync: 1404  h_sync_end 1426 h_blank_end 1592 h_border: 0
+[    59.266] Information:  modeset(0): v_active: 768  v_sync: 771  v_sync_end 777 v_blanking: 798 v_border: 0
+[    59.266] Information:  modeset(0): Unknown vendor-specific block f
+[    59.266] Information:  modeset(0):  AUO
+[    59.266] Information:  modeset(0):  B156XW004.7
+[    59.266] Information:  modeset(0): EDID (in hex):
+[    59.266] Information:  modeset(0): 	00ffffffffffff0006afec4700000000
+[    59.266] Information:  modeset(0): 	0017010495221378020bb59757548c26
+[    59.267] Information:  modeset(0): 	23505400000001010101010101010101
+[    59.267] Information:  modeset(0): 	010101010101ce1d56e250001e302616
+[    59.267] Information:  modeset(0): 	360058c1100000180000000f00000000
+[    59.267] Information:  modeset(0): 	00000000000000000020000000fe0041
+[    59.267] Information:  modeset(0): 	554f0a202020202020202020000000fe
+[    59.267] Information:  modeset(0): 	004231353658573030342e37200a00d5
+[    59.267] Information:  modeset(0): Printing probed modes for output eDP-1
+[    59.267] Information:  modeset(0): Modeline "1366x768"x60.1   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    59.267] Information:  modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[    59.267] Information:  modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[    59.267] Information:  modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    59.267] Information:  modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    59.267] Information:  modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    59.267] Information:  modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    59.267] Information:  modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    59.267] Information:  modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    59.267] Information:  modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    59.267] Information:  modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    59.267] Information:  modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    59.267] Information:  modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    59.267] Information:  modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[    59.267] Information:  modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    59.267] Information:  modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    59.267] Information:  modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[    59.267] Information:  modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[    59.267] Information:  modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[    59.267] Information:  modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    59.267] Information:  modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    59.268] Information:  modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    59.268] Information:  modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    59.273] Information:  modeset(0): EDID for output VGA-1
+[    59.281] Information:  modeset(0): EDID for output HDMI-1
+[    59.281] Information:  modeset(0): EDID for output DP-1
+[    59.281] Information:  modeset(0): Output eDP-1 connected
+[    59.281] Information:  modeset(0): Output VGA-1 disconnected
+[    59.281] Information:  modeset(0): Output HDMI-1 disconnected
+[    59.281] Information:  modeset(0): Output DP-1 disconnected
+[    59.281] Information:  modeset(0): Using exact sizes for initial modes
+[    59.281] Information:  modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
+[    59.281] Information:  Loading sub module "fb"
+[    59.281] Information:  LoadModule: "fb"
+[    59.282] Information:  Loading /usr/lib/xorg/modules/libfb.so
+[    59.298] Information:  Module fb: vendor="X.Org Foundation"
+[    59.298] Information:  UnloadModule: "fbdev"
+[    59.298] Information:  Unloading fbdev
+[    59.299] Information:  UnloadSubModule: "fbdevhw"
+[    59.299] Information:  Unloading fbdevhw
+[    59.299] Information:  UnloadModule: "vesa"
+[    59.299] Information:  Unloading vesa
+[    59.654] Information:  modeset(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    59.723] Information:  modeset(0): [DRI2] Setup complete
+[    59.723] Information:  modeset(0): [DRI2]   DRI driver: i965
+[    59.723] Information:  modeset(0): [DRI2]   VDPAU driver: i965
+[    59.769] Information:  SELinux: Disabled on system
+[    59.778] Information:  AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    59.778] Information:  AIGLX: enabled GLX_ARB_create_context
+[    59.778] Information:  AIGLX: enabled GLX_ARB_create_context_profile
+[    59.778] Information:  AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[    59.778] Information:  AIGLX: enabled GLX_INTEL_swap_event
+[    59.778] Information:  AIGLX: enabled GLX_SGI_swap_control
+[    59.778] Information:  AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    59.778] Information:  AIGLX: enabled GLX_ARB_fbconfig_float
+[    59.778] Information:  AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[    59.778] Information:  AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    59.778] Information:  AIGLX: enabled GLX_ARB_create_context_robustness
+[    59.779] Information:  AIGLX: Loaded and initialized i965
+[    59.779] Information:  GLX: Initialized DRI2 GL provider for screen 0
+[    59.913] Information:  modeset(0): Damage tracking initialized
+[    59.913] Information:  modeset(0): Setting screen physical size to 361 x 203
+[    60.719] Information:  config/udev: Adding input device Power Button (/dev/input/event5)
+[    60.719] Information:  LoadModule: "evdev"
+[    60.719] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    60.816] Information:  Module evdev: vendor="X.Org Foundation"
+[    60.816] Information:  Using input driver 'evdev' for 'Power Button'
+[    60.816] Information:  evdev: Power Button: Configuring as keyboard
+[    60.816] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    60.914] Information:  config/udev: Adding input device Video Bus (/dev/input/event7)
+[    60.914] Information:  Using input driver 'evdev' for 'Video Bus'
+[    60.915] Information:  evdev: Video Bus: Configuring as keyboard
+[    60.915] Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    60.916] Information:  config/udev: Adding input device Power Button (/dev/input/event2)
+[    60.916] Information:  Using input driver 'evdev' for 'Power Button'
+[    60.916] Information:  evdev: Power Button: Configuring as keyboard
+[    60.916] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    60.917] Information:  config/udev: Adding input device Lid Switch (/dev/input/event3)
+[    60.917] Information:  No input driver specified, ignoring this device.
+[    60.917] Information:  This device may have been added with another device file.
+[    60.918] Information:  config/udev: Adding input device Sleep Button (/dev/input/event4)
+[    60.918] Information:  Using input driver 'evdev' for 'Sleep Button'
+[    60.918] Information:  evdev: Sleep Button: Configuring as keyboard
+[    60.918] Information:  XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    60.919] Information:  config/udev: Adding input device Video Bus (/dev/input/event6)
+[    60.920] Information:  Using input driver 'evdev' for 'Video Bus'
+[    60.920] Information:  evdev: Video Bus: Configuring as keyboard
+[    60.920] Information:  XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 10)
+[    60.921] Information:  config/udev: Adding input device HD WebCam: HD WebCam (/dev/input/event12)
+[    60.922] Information:  Using input driver 'evdev' for 'HD WebCam: HD WebCam'
+[    60.922] Information:  evdev: HD WebCam: HD WebCam: Configuring as keyboard
+[    60.922] Information:  XINPUT: Adding extended input device "HD WebCam: HD WebCam" (type: KEYBOARD, id 11)
+[    60.923] Information:  config/udev: Adding input device HDA Digital PCBeep (/dev/input/event9)
+[    60.923] Information:  No input driver specified, ignoring this device.
+[    60.923] Information:  This device may have been added with another device file.
+[    60.923] Information:  config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event10)
+[    60.923] Information:  No input driver specified, ignoring this device.
+[    60.923] Information:  This device may have been added with another device file.
+[    60.924] Information:  config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event11)
+[    60.924] Information:  No input driver specified, ignoring this device.
+[    60.924] Information:  This device may have been added with another device file.
+[    60.924] Information:  config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    60.924] Information:  Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    60.924] Information:  evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    60.924] Information:  XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 12)
+[    60.925] Information:  config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event1)
+[    60.925] Information:  LoadModule: "synaptics"
+[    60.925] Information:  Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    61.177] Information:  Module synaptics: vendor="X.Org Foundation"
+[    61.177] Information:  Using input driver 'synaptics' for 'ETPS/2 Elantech Touchpad'
+[    61.192] Information:  synaptics: ETPS/2 Elantech Touchpad: ignoring touch events for semi-multitouch device
+[    61.209] Information:  XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 13)
+[    61.211] Information:  config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse0)
+[    61.212] Information:  config/udev: Adding input device ACPI Virtual Keyboard Device (/dev/input/event13)
+[    61.212] Information:  Using input driver 'evdev' for 'ACPI Virtual Keyboard Device'
+[    61.213] Information:  evdev: ACPI Virtual Keyboard Device: Configuring as keyboard
+[    61.213] Information:  XINPUT: Adding extended input device "ACPI Virtual Keyboard Device" (type: KEYBOARD, id 14)
+[    61.213] Information:  config/udev: Adding input device Acer WMI hotkeys (/dev/input/event8)
+[    61.213] Information:  Using input driver 'evdev' for 'Acer WMI hotkeys'
+[    61.213] Information:  evdev: Acer WMI hotkeys: Configuring as keyboard
+[    61.213] Information:  XINPUT: Adding extended input device "Acer WMI hotkeys" (type: KEYBOARD, id 15)
+[    86.112] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    86.112] Information:  modeset(0): Printing DDC gathered Modelines:
+[    86.112] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    86.126] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    86.126] Information:  modeset(0): Printing DDC gathered Modelines:
+[    86.126] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    89.784] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    89.784] Information:  modeset(0): Printing DDC gathered Modelines:
+[    89.784] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    90.352] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    90.353] Information:  modeset(0): Printing DDC gathered Modelines:
+[    90.353] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    90.367] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    90.367] Information:  modeset(0): Printing DDC gathered Modelines:
+[    90.367] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[    93.683] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[    93.683] Information:  modeset(0): Printing DDC gathered Modelines:
+[    93.683] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2886.831] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2886.831] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2886.831] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2886.844] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2886.844] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2886.844] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2886.860] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2886.860] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2886.860] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2889.251] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2889.251] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2889.251] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2889.298] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2889.298] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2889.298] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  2889.310] Information:  modeset(0): EDID vendor "AUO", prod id 18412
+[  2889.310] Information:  modeset(0): Printing DDC gathered Modelines:
+[  2889.310] Information:  modeset(0): Modeline "1366x768"x0.0   76.30  1366 1404 1426 1592  768 771 777 798 -hsync -vsync (47.9 kHz eP)
+[  8800.359] Information:  config/udev: Adding input device A4Tech USB Mouse (/dev/input/mouse1)
+[  8800.360] Information:  No input driver specified, ignoring this device.
+[  8800.360] Information:  This device may have been added with another device file.
+[  8800.372] Information:  config/udev: Adding input device A4Tech USB Mouse (/dev/input/event14)
+[  8800.372] Information:  Using input driver 'evdev' for 'A4Tech USB Mouse'
+[  8800.431] Information:  evdev: A4Tech USB Mouse: Forcing absolute x/y axes to exist.
+[  8800.431] Information:  evdev: A4Tech USB Mouse: Configuring as mouse
+[  8800.431] Information:  evdev: A4Tech USB Mouse: Adding scrollwheel support
+[  8800.431] Information:  XINPUT: Adding extended input device "A4Tech USB Mouse" (type: MOUSE, id 16)
+[  8800.432] Information:  evdev: A4Tech USB Mouse: initialized for relative axes.
+[  8958.205] Information:  config/udev: Adding input device CM Storm Keyboard -- QuickFire XT (/dev/input/event15)
+[  8958.205] Information:  Using input driver 'evdev' for 'CM Storm Keyboard -- QuickFire XT'
+[  8958.206] Information:  evdev: CM Storm Keyboard -- QuickFire XT: Configuring as keyboard
+[  8958.206] Information:  XINPUT: Adding extended input device "CM Storm Keyboard -- QuickFire XT" (type: KEYBOARD, id 17)
+[  8958.214] Information:  config/udev: Adding input device CM Storm Keyboard -- QuickFire XT (/dev/input/event16)
+[  8958.214] Information:  Using input driver 'evdev' for 'CM Storm Keyboard -- QuickFire XT'
+[  8958.215] Information:  evdev: CM Storm Keyboard -- QuickFire XT: Configuring as keyboard
+[  8958.215] Information:  XINPUT: Adding extended input device "CM Storm Keyboard -- QuickFire XT" (type: KEYBOARD, id 18)
