@@ -815,13 +815,25 @@ Swap
 
 [кулстори про сервер, уходящий в swap - долго, пока меняем приходят ещё запросы - очень жаль - решение подождать, пока разрулит]
 
+## Девятая лекция
+### Файловая система
+За эти 40 лет концепция файловой системы сильно не поменялась. 
+У нас есть разные базы данных:
+* HDD
+* SSD
+* CD/DVD
+* Flash
+* ...
 
+На них данные записываются разными способами. 
+В носителях есть контроллеры, которые контролируют адресацию и передачу данных операционной системе. Со стороны ОС находится драйвер, который взаимодействует с контроллером и отдаёт ОС блоки данных, которые используют линейную адресацию блоков. С позиции файловых систем я работаю с пространством блоков, а дальше для меня всё абстрагировано. 
+Дальше, когда мы будем рассуждать о файловой системе, будем опускать всё, что находится "ниже" драйвера, работаем только с линейным пространством. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNjM3Nzg5LDE2NTY3MDE4MjUsMTgyOT
-k1Mzk1LC0yMDcxNjAyNTksMTIzNTA0ODk0NiwtMzgzNjUyNjI2
-LDkwNDUzODYwOCwxNTk2MzY5MzYxLC03Njc2MDk0OTQsLTEzNz
-YwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAxOTYwLDUwNDE0MzI2
-LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MDkzOTgwMywtMTgwNj
-Y4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIwMzcsNDkyNDI2MjM0
-XX0=
+eyJoaXN0b3J5IjpbMTg5Njg0NTI2Myw1MzA2Mzc3ODksMTY1Nj
+cwMTgyNSwxODI5OTUzOTUsLTIwNzE2MDI1OSwxMjM1MDQ4OTQ2
+LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2Nz
+YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
+NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
+M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
+N119
 -->
