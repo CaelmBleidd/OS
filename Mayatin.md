@@ -864,19 +864,21 @@ Swap
 
 ## Десятая лекция
 ### Технология виртуализации
+**Категорически приветствую!**
 Что такое виртуализация? Термин "виртуальная машина" появился в шестидесятые годы. 
 1. Появилась необходимость запуска нескольких экземпляров ОС с запущенными одновременно приложениями на одном железе. 
 [история про легаси говно в балтийском банке]
 2. Изоляция приложений на одном хосте на разных ОС
 3. Хочется не сломать систему под рутом, так что неплохо было бы тестировать программы в некоторой оболочке
 4. Консолидация серверов
-5. 
+[поучительная история про серверы и кондиционеры]
+5. Хочу повысить безопасность, чтобы перевести инфраструктуру на виртуальный уровень
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE4Mjc1NjUsNTMwNjM3Nzg5LDE2NT
-Y3MDE4MjUsMTgyOTk1Mzk1LC0yMDcxNjAyNTksMTIzNTA0ODk0
-NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYxLC03Nj
-c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
-OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
-kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
-MzddfQ==
+eyJoaXN0b3J5IjpbMzQ1MDQzMTk0LDUzMDYzNzc4OSwxNjU2Nz
+AxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5LDEyMzUwNDg5NDYs
+LTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3Nj
+A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
+MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
+k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
+XX0=
 -->
