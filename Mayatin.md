@@ -897,13 +897,16 @@ Swap
 3. Виртуализация сервером -- у меня вот так вот удалённо работают не клиентские ОС, а серверные
 4. Виртуализация приложений -- есть portable приложения, они создают виртуальную систему (урезанную) ((сильно урезанную)), которая умеет пробрасывать вызовы в хостовую ОС, умеет работать только с одной ОС. 
 
-Наконец, мы хотим перейти от этого к облакам. В чём суть устройства устройства современного облака (**ФОТОЧКА**). 
+Наконец, мы хотим перейти от этого к облакам. В чём суть устройства устройства современного облака (**ФОТОЧКА**): мы не можем просто перебрасывать файлы виртуальной системы по сети, это крайне долго. Что делаем? Создаём отдельное хранилище данных, между ними стоят коммутаторы. На хостовой ОС может либо не быть жёсткого диска, либо быть только ссд, который будет хостить систему. Все файлы хранятся в хранилище, чсх, т.е. я, фактически, подключаю сетевой диск. Тогда я могу создать Live-migration. Что я должен сделать? Заморозить, сделать дамп памяти и перебросить на другой хост, после этого я отморозил её и запустил дальше работать уже на другом хосте. 
+
+Облачные ОС != Распределённые ОС
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTI1MjY3NSw1MzA2Mzc3ODksMTY1Nj
-cwMTgyNSwxODI5OTUzOTUsLTIwNzE2MDI1OSwxMjM1MDQ4OTQ2
-LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-N119
+eyJoaXN0b3J5IjpbODI1Njk4NDg2LDUzMDYzNzc4OSwxNjU2Nz
+AxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5LDEyMzUwNDg5NDYs
+LTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3Nj
+A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
+MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
+k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
+XX0=
 -->
