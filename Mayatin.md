@@ -902,12 +902,34 @@ Swap
 Облачные ОС != Распределённые ОС
 
 
+## Пропущенная лекция
+
+ ## Угрозы
+ Американцами был создан orange-book, в котором были перечислены уровни безопасности. Последний, пятый, уровень был реализован для первой АЭС. На защиту системы тратилось 92% всех ресурсов системы. Стало понятно, что это не тот путь, который стоит избрать. 
+
+Пошли по другому пути. Искать решения, которые работали бы на большое количество угроз, чтобы минимизировать накладные расходы. 
+Пример: знаменитая ежегодная конференция "белых хакеров", в его рамках проводится турнир взломов. Объявляется условие, что значит "Вскрыть", обговариваются условия. Как правило, у тебя есть флешка (что там -- не проверяется) и ограниченное время. 
+Ставки на взлом FreeBSD принимались 1:75, а взлом Windows 10 -- 2:1. 
+За годы развития ОС стало понятно, что нужно развивать безопасность в следующих направлениях:
+1. Разграничение уровней доступа
+2. Механизмы, связанные с аудитом
+3. Шифрование
+
+**Идентификация** -- это присвоение некоторому субъекту идентификатора, который позволит в дальнейшем проводить **аутентификацию**, т.е. сопоставление имеющихся данных с приходящими
+
+Виды идентификаторов:
+1. То, что пользователь может знать 
+2. То, чем пользователь может обладать
+Кулстори про яндекс и отдел, выходящий гуськом
+4. Неотъемлемая характеристика пользователя
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODgwOTk2LDUzMDYzNzc4OSwxNjU2Nz
-AxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5LDEyMzUwNDg5NDYs
-LTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3Nj
-A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
-MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
-k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
-XX0=
+eyJoaXN0b3J5IjpbLTE0MzU1MTM1OTMsNTMwNjM3Nzg5LDE2NT
+Y3MDE4MjUsMTgyOTk1Mzk1LC0yMDcxNjAyNTksMTIzNTA0ODk0
+NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYxLC03Nj
+c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
+OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
+kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
+MzddfQ==
 -->
