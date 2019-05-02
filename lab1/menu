@@ -1,18 +1,25 @@
 #!/bin/bash
+
+echo enter 1 to open vim
+echo enter 2 to open nano
+echo enter 3 to show information about current java version
+echo enter 4 to exit
+
 while true ; do
 read number
 case $number in 
 1 )
-vim my_file
+vim "$@"
 ;;
 2 )
-nano my_file
+nano "$@"
 ;;
 3 )
-java -version
+java "$@"
 ;;
 4 )
 break
 ;;
 esac
 done
+
