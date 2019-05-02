@@ -149780,3 +149780,11 @@ sdf
 
 df
 
+1
+2
+3
+data.txt generator.sh handler.sh
+2
++
+4
+QUIT

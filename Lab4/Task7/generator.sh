@@ -1,23 +1,3 @@
-#!/bin/bash 
-#===============================================================================
-#
-#          FILE: generator.sh
-# 
-#         USAGE: ./generator.sh 
-# 
-#   DESCRIPTION: 
-# 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: NewUserKK (), 
-#  ORGANIZATION: 
-#       CREATED: 04/20/2019 01:55:56 PM
-#      REVISION:  ---
-#===============================================================================
-
-set -o nounset                              # Treat unset variables as an error
 
 HANDLER_PID_FILE=.handler_pid
 
@@ -27,7 +7,6 @@ loop () {
         read line
         
         signal=""
-        echo $line
         case $line in
             "+") signal=USR1
                 ;;
@@ -37,14 +16,10 @@ loop () {
 
             "TERM") signal=SIGTERM
                 ;;
-
-#            *)
-#                ;;
-
-        esac    # --- end of case ---
+        esac
         
         kill -"$signal" $(cat $HANDLER_PID_FILE)
     done
-}	# ----------  end of function loop  ----------
+}
 
 loop
