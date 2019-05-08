@@ -36,12 +36,9 @@ ProcessID=696 : Parent_ProcessID=1 : Average_Sleeping_Time=0
 ProcessID=832 : Parent_ProcessID=1 : Average_Sleeping_Time=0
 ProcessID=992 : Parent_ProcessID=1 : Average_Sleeping_Time=0
 ProcessID=10 : Parent_ProcessID=2 : Average_Sleeping_Time=0
-ProcessID=11017 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=114 : Parent_ProcessID=2 : Average_Sleeping_Time=0
-ProcessID=11678 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=11 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=12 : Parent_ProcessID=2 : Average_Sleeping_Time=0
-ProcessID=13432 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=13 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=14 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=150 : Parent_ProcessID=2 : Average_Sleeping_Time=0
@@ -53,6 +50,9 @@ ProcessID=161 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=162 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=16 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=17 : Parent_ProcessID=2 : Average_Sleeping_Time=0
+ProcessID=18497 : Parent_ProcessID=2 : Average_Sleeping_Time=0
+ProcessID=18847 : Parent_ProcessID=2 : Average_Sleeping_Time=0
+ProcessID=18965 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=18 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=19 : Parent_ProcessID=2 : Average_Sleeping_Time=0
 ProcessID=20 : Parent_ProcessID=2 : Average_Sleeping_Time=0
@@ -140,9 +140,8 @@ ProcessID=922 : Parent_ProcessID=880 : Average_Sleeping_Time=0
 ProcessID=952 : Parent_ProcessID=880 : Average_Sleeping_Time=0
 ProcessID=1253 : Parent_ProcessID=964 : Average_Sleeping_Time=0
 ProcessID=983 : Parent_ProcessID=978 : Average_Sleeping_Time=0
-ProcessID=1396 : Parent_ProcessID=1389 : Average_Sleeping_Time=0
-ProcessID=10874 : Parent_ProcessID=1396 : Average_Sleeping_Time=0
-ProcessID=10998 : Parent_ProcessID=1396 : Average_Sleeping_Time=0
-ProcessID=13466 : Parent_ProcessID=1396 : Average_Sleeping_Time=0
-ProcessID=13467 : Parent_ProcessID=13466 : Average_Sleeping_Time=0
-ProcessID=13468 : Parent_ProcessID=13466 : Average_Sleeping_Time=0
+ProcessID=18483 : Parent_ProcessID=1389 : Average_Sleeping_Time=0
+ProcessID=18493 : Parent_ProcessID=18483 : Average_Sleeping_Time=0
+ProcessID=20003 : Parent_ProcessID=18483 : Average_Sleeping_Time=0
+ProcessID=20004 : Parent_ProcessID=20003 : Average_Sleeping_Time=0
+ProcessID=20005 : Parent_ProcessID=20003 : Average_Sleeping_Time=0

@@ -56,7 +56,8 @@ PID:CMD
 1353:mintUpdate
 1378:/usr/bin/python3
 1389:/usr/lib/gnome-terminal/gnome-terminal-server
-1396:bash
-5027:/bin/bash
-5028:ps
-5029:awk
+18483:bash
+18493:bash
+18879:/bin/bash
+18880:ps
+18881:awk
