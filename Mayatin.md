@@ -955,15 +955,18 @@ Swap
 Execute для каталога -- право войти в него. Если вы запустили, например, rm с относительными путями, они смогут пройти к файлу для удаления как раз через право execute. 
 
 ### Аудит
-Если я хочу максимально эффективно строить аудит, мне нужно записывать как можно больше информации, но если я буду делать это, я буду тратить всё время и место на запись и хранение этой информации. 
+Если я хочу максимально эффективно строить аудит, мне нужно записывать как можно больше информации, но если я буду делать это, я буду тратить всё время и место на запись и хранение этой информации. Поэтому сейчас логируют выборочно операции. 
 
-
+### Шифрование
+Рут не знает паролей своих пользователей. [Стори про челика, который работает на литейном 4]. Да, вы можете сделать всё, что угодно,  но не сможете сделать от имени пользователей. Останутся следы, что это было сделано рутом. 
+Жёсткое шифрование обычно бывает уже на некоторых разделах жёстких дисков.  
+Как ни странно, Windows неплохо защищён, если вы получили доступ к первой консоли (серверу). В Linux это оставлено специально как лазейка: если вы получили доступ к первой консоли, ты уже получил доступ к руту. Это сделано, чтобы при потере данных о паролях я всё ещё имел доступ к данных. Было решено сделать это штатными методами. Поэтому около Linux серверов стоит бронированная дверь и вооруженная охрана. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIwNTU3OTIsNTMwNjM3Nzg5LDE2NT
-Y3MDE4MjUsMTgyOTk1Mzk1LC0yMDcxNjAyNTksMTIzNTA0ODk0
-NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYxLC03Nj
-c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
-OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
-kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
-MzddfQ==
+eyJoaXN0b3J5IjpbLTgwOTM5ODYwNSw1MzA2Mzc3ODksMTY1Nj
+cwMTgyNSwxODI5OTUzOTUsLTIwNzE2MDI1OSwxMjM1MDQ4OTQ2
+LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2Nz
+YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
+NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
+M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
+N119
 -->
