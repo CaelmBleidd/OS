@@ -1011,14 +1011,26 @@ Execute для каталога -- право войти в него. Если �
 * Первый символ -- тип файла. `-` означает, что файл регулярный. `c` или `b` -- файл физического устройства и тд. 
 * 1 -- из скольких каталогов можно получить доступ (?)
 * Первый user -- имя owner, второй user -- owner's group. 
-* `rwxr-xr--` -- доступ для трёх групп. В iNode хранится четыре восьмеричных числа. Например, `chmod 754` даст нам такие права. Но можно написать и `chmod 1754`. По-умолчанию считается, что 1 -- hidden bit, они определяют suid. Что они значат? 1 -- запуск не с моими правами, а с правами владельца. 
+* `rwxr-xr--` -- доступ для трёх групп. В iNode хранится четыре восьмеричных числа. Например, `chmod 754` даст нам такие права. Но можно написать и `chmod 1754`. По-умолчанию считается, что 1 -- hidden bit, . Что они значат? 
+Число состоит из трёх битов. 
+* 1 -- SUID. Запуск не с моими правами, а с правами владельца. 
+* 2 -- SGID 
+* 3 -- Sticky-bit
 
+## Немного про iNode 
+Некоторые iNode: 
+1. BAD -- файл, который состоит только из побитых блоков
+2. ROOT -- индексный дескриптор корневого каталога
+3. То же, что и четвёртый
+4. ACL -- access control list
+5. Loader 
+6. Undel 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNzQwMjcxLDUzMDYzNzc4OSwxNjU2Nz
-AxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5LDEyMzUwNDg5NDYs
-LTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5NjM2OTM2MSwtNzY3Nj
-A5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAxMDAsLTI2MDkwMTk2
-MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3MzUxNDgzLC0zOTA5Mz
-k4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYyNSwxMjczNDYyMDM3
-XX0=
+eyJoaXN0b3J5IjpbLTIxMDUzMjY5OTEsNTMwNjM3Nzg5LDE2NT
+Y3MDE4MjUsMTgyOTk1Mzk1LC0yMDcxNjAyNTksMTIzNTA0ODk0
+NiwtMzgzNjUyNjI2LDkwNDUzODYwOCwxNTk2MzY5MzYxLC03Nj
+c2MDk0OTQsLTEzNzYwNjQ2OTEsLTg3NDY0MDEwMCwtMjYwOTAx
+OTYwLDUwNDE0MzI2LC0zNTAwMzM4MywzNjczNTE0ODMsLTM5MD
+kzOTgwMywtMTgwNjY4NjY0MiwxNTg4ODcwNjI1LDEyNzM0NjIw
+MzddfQ==
 -->
