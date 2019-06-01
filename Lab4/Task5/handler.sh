@@ -1,24 +1,3 @@
-#!/bin/bash 
-#===============================================================================
-#
-#          FILE: handler.sh
-# 
-#         USAGE: ./handler.sh 
-# 
-#   DESCRIPTION: 
-# 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: NewUserKK (), 
-#  ORGANIZATION: 
-#       CREATED: 04/20/2019 02:05:36 PM
-#      REVISION:  ---
-#===============================================================================
-
-set -o nounset                              # Treat unset variables as an error
-
 
 INPUT_FILE=data.txt
 
@@ -62,14 +41,14 @@ loop () {
                         kill $$
                         ;;
 
-                esac    # --- end of case ---
+                esac 
                 ;;
 
             *) echo "Invalid input: <$line>"
                 kill $$
                 ;;
-            esac    # --- end of case ---
+            esac 
     done
-}	# ----------  end of function loop  ----------
+}	
 
 loop

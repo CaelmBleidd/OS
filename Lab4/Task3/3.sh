@@ -1,23 +1,5 @@
-#!/bin/bash 
-#===============================================================================
-#
-#          FILE: 3.sh
-# 
-#         USAGE: ./3.sh 
-# 
-#   DESCRIPTION: 
-# 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: NewUserKK (), 
-#  ORGANIZATION: 
-#       CREATED: 04/20/2019 01:14:34 PM
-#      REVISION:  ---
-#===============================================================================
-
-set -o nounset                              # Treat unset variables as an error
-
-crontab -l
+crontab -l > tmp_file
+echo "*/5 * * * 4 $HOME/Programming/OS/Lab4/Task1/1.sh" >> tmp_file
+crontab tmp_file
+rm tmp_file
 

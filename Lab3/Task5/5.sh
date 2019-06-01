@@ -1,11 +1,6 @@
 #!/bin/bash 
 
-set -o nounset                              # Treat unset variables as an error
-
-#exec 2> /dev/null
-
 OUT_FILE="out.txt"
-TEMP_FILE=".out.tmp"
 
 for pid in $(ps ax -o pid | tail -n +2); do
     status_pid=$(grep -P "^Pid:" /proc/$pid/status | grep -o -P '\d*')
@@ -25,5 +20,5 @@ for pid in $(ps ax -o pid | tail -n +2); do
     fi
 
     echo "ProcessID=$status_pid : Parent_ProcessID=$status_ppid : Average_Sleeping_Time=$sleep_avg"
-done > $TEMP_FILE
-sort --key=2 -V $TEMP_FILE > $OUT_FILE
+done |
+    sort --key=2 -V > $OUT_FILE

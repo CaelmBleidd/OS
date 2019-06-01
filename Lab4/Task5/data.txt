@@ -149780,3 +149780,44 @@ sdf
 
 df
 
+1
+2
+3
+data.txt generator.sh handler.sh
+2
++
+4
+QUIT
+ghgg
+1
+2
+3
+4
+5
+6
+7
+data.txt generator.sh handler.sh
+1
+2
+3
+4
+5
+6
+7
++
+2
+34
+5
+6
+2
+3
+\*
+1
+2
+3
+4
+5
+QUIT
+data.txt generator.sh handler.sh
+cd ..
+

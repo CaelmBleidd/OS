@@ -1,10 +1,8 @@
 #!/bin/bash
 
-set -o nounset                              # Treat unset variables as an error
-
 calc_expr() {
     echo $1 | bc -l
-}	# ----------  end of function calc_expr  ----------
+}
 
 INPUT_FILE="../Task5/out.txt"
 OUT_FILE="out.txt"

@@ -1,25 +1,3 @@
-#!/bin/bash 
-#===============================================================================
-#
-#          FILE: handler.sh
-# 
-#         USAGE: ./handler.sh 
-# 
-#   DESCRIPTION: 
-# 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
-#        AUTHOR: NewUserKK (), 
-#  ORGANIZATION: 
-#       CREATED: 04/20/2019 02:05:36 PM
-#      REVISION:  ---
-#===============================================================================
-
-set -o nounset                              # Treat unset variables as an error
-
-
 PID_FILE='.worker_pid'
 
 interrupt () {
@@ -38,7 +16,7 @@ loop () {
         sleep 1s
         echo $x
     done
-}	# ----------  end of function loop  ----------
+}
 
 
 
