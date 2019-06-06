@@ -1095,12 +1095,14 @@ Execute для каталога -- право войти в него. Если �
 `kernel /boot/vmlinknkjrentklewrenjl-2.6.32-23434...`, где 2.6.32 -- то, что нам отдал Торвальдс, это версия ядра, а 23434 это то, что уже создатель дистрибутива сделал с ядром. Дальше будет написано что-то вроде `root=UUID=...`, `root=/dev/sda1`. 
 Кроме кернела и рута, внутри хранится интересный файл, которые имеет имя `/boot/initrd.img-2.6.32-23434`. Что это такое? Внешне это файл, в него кидаются новые драйвера, которые появляются. Но на самом деле этот файл находится в операционной памяти. Тогда я могу с двух сторон туда обращаться: писать как в файл, но ядро может обращаться по адресам в операционной памяти. 
 Дальше, после запуска ядра, оно монтирует корневую файловую систему, и, найдя её, находит `/sbin`  и запускает процесс `/sbin/init`
+
+№№ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDk1MDEzOCw1MzA2Mzc3ODksMTY1Nj
-cwMTgyNSwxODI5OTUzOTUsLTIwNzE2MDI1OSwxMjM1MDQ4OTQ2
-LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OTYzNjkzNjEsLTc2Nz
-YwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQwMTAwLC0yNjA5MDE5
-NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2NzM1MTQ4MywtMzkwOT
-M5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2MjUsMTI3MzQ2MjAz
-N119
+eyJoaXN0b3J5IjpbLTk5MDIxNDA1MCwxNzI0OTUwMTM4LDUzMD
+YzNzc4OSwxNjU2NzAxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5
+LDEyMzUwNDg5NDYsLTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5Nj
+M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
+MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
+UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
+NV19
 -->
