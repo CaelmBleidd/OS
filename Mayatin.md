@@ -1096,13 +1096,15 @@ Execute для каталога -- право войти в него. Если �
 Кроме кернела и рута, внутри хранится интересный файл, которые имеет имя `/boot/initrd.img-2.6.32-23434`. Что это такое? Внешне это файл, в него кидаются новые драйвера, которые появляются. Но на самом деле этот файл находится в операционной памяти. Тогда я могу с двух сторон туда обращаться: писать как в файл, но ядро может обращаться по адресам в операционной памяти. 
 Дальше, после запуска ядра, оно монтирует корневую файловую систему, и, найдя её, находит `/sbin`  и запускает процесс `/sbin/init`
 
-№№ 
+## Пропущена лекция (13)
+
+## Четырнадцатая пара 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDIxNDA1MCwxNzI0OTUwMTM4LDUzMD
-YzNzc4OSwxNjU2NzAxODI1LDE4Mjk5NTM5NSwtMjA3MTYwMjU5
-LDEyMzUwNDg5NDYsLTM4MzY1MjYyNiw5MDQ1Mzg2MDgsMTU5Nj
-M2OTM2MSwtNzY3NjA5NDk0LC0xMzc2MDY0NjkxLC04NzQ2NDAx
-MDAsLTI2MDkwMTk2MCw1MDQxNDMyNiwtMzUwMDMzODMsMzY3Mz
-UxNDgzLC0zOTA5Mzk4MDMsLTE4MDY2ODY2NDIsMTU4ODg3MDYy
-NV19
+eyJoaXN0b3J5IjpbLTE2Mzk0MDg1OTAsMTcyNDk1MDEzOCw1Mz
+A2Mzc3ODksMTY1NjcwMTgyNSwxODI5OTUzOTUsLTIwNzE2MDI1
+OSwxMjM1MDQ4OTQ2LC0zODM2NTI2MjYsOTA0NTM4NjA4LDE1OT
+YzNjkzNjEsLTc2NzYwOTQ5NCwtMTM3NjA2NDY5MSwtODc0NjQw
+MTAwLC0yNjA5MDE5NjAsNTA0MTQzMjYsLTM1MDAzMzgzLDM2Nz
+M1MTQ4MywtMzkwOTM5ODAzLC0xODA2Njg2NjQyLDE1ODg4NzA2
+MjVdfQ==
 -->
